@@ -1,0 +1,37 @@
+
+/* Fab  */
+.fabcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  user-select: none;
+  position: absolute;
+  bottom: 30px; right: 30px;
+  }
+
+  .fab:hover {
+    background-color: rgb(93, 95, 236);
+  }
+
+  .fab {
+    background-color: blue;
+    position: relative;
+    height: 70px; width: 70px;
+    border-radius: 50%;
+    z-index: 2;
+  }
+
+  .fabcontent {
+    display: flex;
+    align-items: center; justify-content: center;
+    height: 100%; width: 100%;
+    border-radius: 50%;
+  }
+
+  .faplus {
+    color:white;
+    font-size: 2.5rem;
+  }
+
+  /* Cards */
